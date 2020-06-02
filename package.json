@@ -1,0 +1,33 @@
+{
+  "name": "shopify-app-starter",
+  "version": "1.0.0",
+  "description": "A starter shopify app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkarmour/shopify-app-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkarmour/shopify-app-starter/issues"
+  },
+  "homepage": "https://github.com/Darkarmour/shopify-app-starter#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.63",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.12.0",
+    "koa-session": "^6.0.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
